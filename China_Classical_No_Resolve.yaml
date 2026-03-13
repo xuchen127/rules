@@ -1,12 +1,19 @@
 # NAME: China
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# TOTAL: 37xx
+# AUTHOR: badbubu465
+# REPO: https://raw.githubusercontent.com/badbubu465/rules/refs/heads/main/China_Classical_No_Resolve.yaml
+# UPDATED: 2026-03-13 15:18:00
+# DOMAIN: 4
+# DOMAIN-KEYWORD: 9
+# DOMAIN-SUFFIX: 1551
+# IP-CIDR: 17
+# IP-CIDR6: 4
+# PROCESS-NAME: 0
+# TOTAL: 1593
 payload:
-  - DOMAIN,kc.kexinshe.com
-  - DOMAIN,weixin.com
   - DOMAIN,www.libvideo.com
+  - DOMAIN,kc.kexinshe.com
   - DOMAIN,www.yxssp.com
+  - DOMAIN,weixin.com
   - DOMAIN-SUFFIX,00cdn.com
   - DOMAIN-SUFFIX,0123456789.com
   - DOMAIN-SUFFIX,0379home.com
@@ -98,30 +105,6 @@ payload:
   - DOMAIN-SUFFIX,3456.cc
   - DOMAIN-SUFFIX,35.com
   - DOMAIN-SUFFIX,3533.com
-  - DOMAIN-SUFFIX,fanyu.com
-  - DOMAIN-SUFFIX,edu.cn
-  - DOMAIN-SUFFIX,aijiaocai.com
-  - DOMAIN-SUFFIX,comahsjxjy.com
-  - DOMAIN-SUFFIX,metaersp.com
-  - DOMAIN-SUFFIX,frasergen.com
-  - DOMAIN-SUFFIX,jb51.net
-  - DOMAIN-SUFFIX,ztflh.com
-  - DOMAIN-SUFFIX,chemsrc.com
-  - DOMAIN-SUFFIX,majorbio.com
-  - DOMAIN-SUFFIX,biozeron.com
-  - DOMAIN-SUFFIX,hedgehogbio.com
-  - DOMAIN-SUFFIX,tiangen.com
-  - DOMAIN-SUFFIX,solarbio.com
-  - DOMAIN-SUFFIX,novogene.com
-  - DOMAIN-SUFFIX,shiyanjia.com
-  - DOMAIN-SUFFIX,chemicalbook.com
-  - DOMAIN-SUFFIX,chem960.com
-  - DOMAIN-SUFFIX,whmall.com
-  - DOMAIN-SUFFIX,home-for-researchers.com
-  - DOMAIN-SUFFIX,eshukan.com
-  - DOMAIN-SUFFIX,citexs.com
-  - DOMAIN-SUFFIX,sangon.com
-  - DOMAIN-SUFFIX,mypitaya.com
   - DOMAIN-SUFFIX,356884.com
   - DOMAIN-SUFFIX,360-jr.com
   - DOMAIN-SUFFIX,360.com
@@ -433,7 +416,6 @@ payload:
   - DOMAIN-SUFFIX,andfx.net
   - DOMAIN-SUFFIX,anfensi.com
   - DOMAIN-SUFFIX,animetamashi.com
-  - DOMAIN-SUFFIX,animetorrents.me
   - DOMAIN-SUFFIX,anitama.net
   - DOMAIN-SUFFIX,anjuke.com
   - DOMAIN-SUFFIX,anjukestatic.com
@@ -455,7 +437,6 @@ payload:
   - DOMAIN-SUFFIX,apaas-zone-test.com
   - DOMAIN-SUFFIX,apabi.com
   - DOMAIN-SUFFIX,apcdns.net
-  - DOMAIN-SUFFIX,api.crisp.chat
   - DOMAIN-SUFFIX,apifox.com
   - DOMAIN-SUFFIX,apigwtencent.com
   - DOMAIN-SUFFIX,apimkt.net
@@ -464,7 +445,6 @@ payload:
   - DOMAIN-SUFFIX,aplaybox.com
   - DOMAIN-SUFFIX,apollo.auto
   - DOMAIN-SUFFIX,appchina.com
-  - DOMAIN-SUFFIX,appeeres.com
   - DOMAIN-SUFFIX,appinn.com
   - DOMAIN-SUFFIX,applysquare.com
   - DOMAIN-SUFFIX,applysquare.net
@@ -615,8 +595,6 @@ payload:
   - DOMAIN-SUFFIX,bootcss.com
   - DOMAIN-SUFFIX,bosera.com
   - DOMAIN-SUFFIX,bosszhipin.com
-  - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,bstatic.com
   - DOMAIN-SUFFIX,btcfans.com
   - DOMAIN-SUFFIX,btgtravel.com
@@ -852,7 +830,6 @@ payload:
   - DOMAIN-SUFFIX,cjsc.com
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,clashroyaleapp.com
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,click.qianqian.com
   - DOMAIN-SUFFIX,clk1.top
   - DOMAIN-SUFFIX,cloud-beijing.com
@@ -886,9 +863,6 @@ payload:
   - DOMAIN-SUFFIX,clouddongying.com
   - DOMAIN-SUFFIX,cloudflarecn.net
   - DOMAIN-SUFFIX,cloudflareinsights-cn.com
-  - DOMAIN-SUFFIX,cloudflareprod.com
-  - DOMAIN-SUFFIX,cloudflarestaging.com
-  - DOMAIN-SUFFIX,cloudflarestoragegw.com
   - DOMAIN-SUFFIX,cloudfoshan.com
   - DOMAIN-SUFFIX,cloudfuqing.com
   - DOMAIN-SUFFIX,cloudganzhou.com
@@ -3693,6 +3667,33 @@ payload:
   - DOMAIN-SUFFIX,zybang.com
   - DOMAIN-SUFFIX,zyh365.com
   - DOMAIN-SUFFIX,zzdtec.com
+  - DOMAIN-SUFFIX,fanyu.com
+  - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,aijiaocai.com
+  - DOMAIN-SUFFIX,comahsjxjy.com
+  - DOMAIN-SUFFIX,metaersp.com
+  - DOMAIN-SUFFIX,frasergen.com
+  - DOMAIN-SUFFIX,jb51.net
+  - DOMAIN-SUFFIX,ztflh.com
+  - DOMAIN-SUFFIX,chemsrc.com
+  - DOMAIN-SUFFIX,majorbio.com
+  - DOMAIN-SUFFIX,biozeron.com
+  - DOMAIN-SUFFIX,hedgehogbio.com
+  - DOMAIN-SUFFIX,tiangen.com
+  - DOMAIN-SUFFIX,solarbio.com
+  - DOMAIN-SUFFIX,novogene.com
+  - DOMAIN-SUFFIX,shiyanjia.com
+  - DOMAIN-SUFFIX,chemicalbook.com
+  - DOMAIN-SUFFIX,chem960.com
+  - DOMAIN-SUFFIX,whmall.com
+  - DOMAIN-SUFFIX,home-for-researchers.com
+  - DOMAIN-SUFFIX,eshukan.com
+  - DOMAIN-SUFFIX,citexs.com
+  - DOMAIN-SUFFIX,sangon.com
+  - DOMAIN-SUFFIX,mypitaya.com
+  - DOMAIN-SUFFIX,4243.net
+  - DOMAIN-SUFFIX,xitongzhijia.com
+
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-KEYWORD,alipay
