@@ -10,7 +10,6 @@
 # PROCESS-NAME: 0
 # IP-ASN: 0
 # TOTAL: 3777
-
 payload:
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
